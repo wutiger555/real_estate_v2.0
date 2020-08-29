@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\wutig\Desktop\real_estate_v2.0\env"
+VIRTUAL_ENV="C:\Users\ASUSPRO\Documents\GitHub\real_estate_v2.0\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
