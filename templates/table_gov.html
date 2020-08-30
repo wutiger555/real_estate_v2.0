@@ -49,21 +49,15 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index">
+                        <a class="nav-link" href="/">
                             <i class="nc-icon nc-chart-pie-35"></i>
                             <p>主頁</p>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./user">
-                            <i class="nc-icon nc-circle-09"></i>
-                            <p>買家登錄</p>
-                        </a>
-                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="./table">
+                        <a class="nav-link" href="./table_gov">
                             <i class="nc-icon nc-notes"></i>
-                            <p>買家受審</p>
+                            <p>進行審核</p>
                         </a>
                     </li>
                 </ul>
@@ -73,7 +67,7 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg" color-on-scroll="500">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#pablo"> 買家受審 </a>
+                    <a class="navbar-brand" href="#pablo"> 選擇待審核項目 </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                         aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar burger-lines"></span>
@@ -114,26 +108,21 @@
                                             <th>ID</th>
                                             <th>建物門牌</th>
                                             <th>送出日期</th>
-                                            <th>最後更新日</th>
-                                            <th>審核狀態</th>
-                                            <th>審核機構狀態</th>
+                                            <th>審核</th>
+
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>154655</td>
                                                 <td>台北市信義區吳興街568巷</td>
                                                 <td>2020/08/10 05:05:12</td>
-                                                <td>2020/08/30 12:00:53</td>
-                                                <td>[審核中]</td>
-                                                <td> 稅務處簽核處理流程</td>
+                                                <td><input type="button" onclick="location.href='./user_gov'" value="審核"></input></td>
                                             </tr>
                                             <tr>
                                                 <td>124866</td>
                                                 <td>新竹縣竹東鎮中興路四段195號</td>
                                                 <td>2015/12/1 15:37:42</td>
-                                                <td>2026/6/30 10:00:11</td>
-                                                <td>[審核完成]</td>
-                                                <td>流程結束 簽核完畢</td>
+                                                <td><input type="button" onclick="location.href='./user_gov'" value="審核"></input></td>
                                             </tr>
                                         </tbody>
                                     </table>

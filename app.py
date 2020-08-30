@@ -41,6 +41,10 @@ def index_gov():
 @app.route('/user_gov')
 def user_gov():
     return render_template('user_gov.html')
+
+@app.route('/table_gov')
+def table_gov():
+    return render_template('table_gov.html')
     
 
 if __name__ == '__main__':
