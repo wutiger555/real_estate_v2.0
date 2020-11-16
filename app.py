@@ -20,6 +20,18 @@ def table():
 def user():
     return render_template('user.html')
 
+@app.route('/user1')
+def user1():
+    return render_template('user_1.html')
+
+@app.route('/user2')
+def user2():
+    return render_template('user_2.html')
+
+@app.route('/user3')
+def user3():
+    return render_template('user_3.html')
+
 @app.route('/login')
 def login():
     return render_template('login.html')
@@ -28,11 +40,11 @@ def login():
 def login_submit():
     if request.method == 'POST':
         role = request.values['username']
-        if role == 'buyer':
-            return render_template('dashboard.html')
-        else:
-            return render_template('dashboard_gov.html')
-        return render_template('login.html')
+        # if role == 'buyer':
+        return render_template('dashboard.html')
+        # else:
+        #     return render_template('dashboard_gov.html')
+        # return render_template('login.html')
 
 @app.route('/index_gov')
 def index_gov():
